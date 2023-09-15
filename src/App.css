@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.custom-container {
+  background-color: #292929; /* Set your desired background color */
+}
+/* #e074dd */
+
+input.form-control,
+textarea.form-control {
+  background: linear-gradient(45deg, #e074dd, #f0f0f0); /* Example gradient */
+  border: 1px solid #999;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #333;
+  padding: 10px;
+  width: 100%;
+
+  resize: none; /* Disable textarea resizing */
+  font-size: 27px;
+}
+input.form-control,
+textarea.form-control:focus {
+  outline: none;
+  border-color: 4c4#c4c; /* Change border color on focus */
+}
+.custom-text-area {
+  height: 150px;
+}
+img {
+  border: solid 6px #e07add; /* Shiny gold border color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e07add(255, 215, 0, 0.7),
+    0 0 10px #e07add(255, 215, 0, 0.7); /* Gold shine and shiny box shadow */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bannerBody {
+  background-color: #292929; /* Dark background color */
+  border-radius: 10px;
+  color: #999;
+  padding: 20px; /* Add padding to create some space between content and border */
+}
+.grey {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #dcdcdc; /* Slightly darker shade of grey */
+  color: #292929;
+  border: 3px solid white;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* More pronounced shiny shadow */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.policy {
+  background-color: #292929; /* Dark background color */
+  border-radius: 10px;
+  color: #999;
+  padding: 20px; /* Add padding to create some space between content and border */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.short {
+  height: 1px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  color: #e074dd;
 }
